@@ -21,7 +21,7 @@ public class HelloFunction
 
         var response = req.CreateResponse(System.Net.HttpStatusCode.OK);
         response.Headers.Add("Content-Type", "text/plain; charset=utf-8");
-        await response.WriteStringAsync("Hello from .NET 9 Azure Function!");
+        await response.WriteStringAsync("Jesus is my Saviour!");
 
         return response;
     }
