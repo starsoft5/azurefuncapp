@@ -21,7 +21,7 @@ public class HelloFunction
 
         var response = req.CreateResponse(System.Net.HttpStatusCode.OK);
         response.Headers.Add("Content-Type", "text/plain; charset=utf-8");
-        await response.WriteStringAsync("Jesus said, 'I am the way, the truth, and the life.' - John 14:6");
+        await response.WriteStringAsync("Jesus said, 'I am the way, the truth, and the life.' - John 14:6, I believe in Him!");
 
         return response;
     }
